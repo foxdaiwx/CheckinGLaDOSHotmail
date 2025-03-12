@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: 35 14 * * *   # UTC时间14:35（北京时间22:35 时差晚8小时）
-    - cron: 10 17 * * *   # UTC时间18:10（北京时间01:10）
+    - cron: 10 17 * * *   # UTC时间18:10（北京时间01:10 时差晚8小时）
 
 
 jobs:
