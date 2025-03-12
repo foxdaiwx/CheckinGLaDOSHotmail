@@ -2,9 +2,8 @@ name: run
 
 on:
   workflow_dispatch:
-  push:
   schedule:
-    - cron: 30 14 * * *   # UTC时间14:30（北京时间22:30 时差晚8小时）
+    - cron: 35 14 * * *   # UTC时间14:35（北京时间22:35 时差晚8小时）
 
 
 jobs:
